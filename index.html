@@ -15,40 +15,38 @@
     <!--Icon Of Page-->
     <link rel="shortcut icon" href="src/img/logo.svg">
     <!--Linking Our Css File-->
-    <link rel="stylesheet" href="src/styles.css">
+    <link rel="stylesheet" href="src/styles/styles.css">
     <!--Linking Bootstrap-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="src/styles/bootstrap.css" rel="stylesheet">
     <!--Title Of Page-->
     <title>اطلس امـداد</title>
 </head>
 <body dir="rtl">
 <!--Pages Elements Goes Here-->
 <!--First Section-->
-<section>
+<section class="sect-1">
     <!--Header Section-->
-    <header>
+    <header class="d-inline-flex align-items-center w-100 p-4">
         <!--Right Section-->
-        <div>
-            <ul>
+        <div class="dv-header-right-side">
+            <ul class="list-unstyled d-inline-flex align-items-center justify-content-between w-100">
                 <li>
-                    <a href="#">
+                    <a href="#" class="d-inline-flex align-items-center text-decoration-none">
                         <img src="src/img/logo.svg" alt="لوگو اطلس امـداد">
-                        <h4>اطلس امـداد</h4>
+                        <h4 class="h4-header-logo">اطلس امـداد</h4>
                     </a>
                 </li>
-                <li><a href="#"><h4>صفحه اصلی</h4></a></li>
-                <li><a href="#"><h4>خدمات ما</h4></a></li>
-                <li><a href="#"><h4>مقالات</h4></a></li>
-                <li><a href="#"><h4>مجوزها</h4></a></li>
-                <li><a href="#"><h4>تماس با ما</h4></a></li>
-                <li><a href="#"><h4>درباره ما</h4></a></li>
+                <li><a class="link-header" href="#"><h4>صفحه اصلی</h4></a></li>
+                <li><a class="link-header" href="#"><h4>خدمات ما</h4></a></li>
+                <li><a class="link-header" href="#"><h4>مقالات</h4></a></li>
+                <li><a class="link-header" href="#"><h4>مجوزها</h4></a></li>
+                <li><a class="link-header" href="#"><h4>تماس با ما</h4></a></li>
+                <li><a class="link-header" href="#"><h4>درباره ما</h4></a></li>
             </ul>
         </div>
         <!--Left Section-->
-        <div><a href="#"><button>عضویت</button></a></div>
+        <div class="w-25 d-flex justify-content-end align-items-center"><a class="w-50" href="#"><button class="btn-header-join">عضویت</button></a></div>
     </header>
 </section>
-<!--Linking Bootstrap Requirements-->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
