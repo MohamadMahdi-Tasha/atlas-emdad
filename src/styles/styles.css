@@ -30,6 +30,8 @@ a {text-decoration: none;}
 .h5-main-title {color: var(--green);}
 .img-left-side-ambulance {width: 80%;}
 .link-header-btn-holder {width: 50%;}
+.li-nav-item:active {background-color: var(--bs-dark);}
+
 
 .sect-1 {
     background-image: url('../img/section-1/bg-section1.png');
@@ -127,6 +129,28 @@ a {text-decoration: none;}
 .btn-header-show-on-mobile:active {
     background-color: var(--green);
     color: white;
+}
+
+.dv-mobile-nav-dark-bg {
+    background-color: rgba(0,0,0,.5);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+}
+
+.nav-mobile-nav {
+    position: fixed;
+    width: 75%;
+    height: 100%;
+    background-color: var(--green-darkest);
+    box-shadow: 0 0 30px rgba(0,0,0,.1);
+}
+
+.li-nav-item {
+    width: 100%;
+    padding: 1rem;
+    background-color: unset;
+    transition: .3s;
 }
 
 /*Media Querys*/
