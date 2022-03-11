@@ -28,7 +28,6 @@ a {text-decoration: none;}
 .btn-header-join:hover, .btn-main-request-ambulance:hover {background-color: var(--green-darker);}
 .btn-header-join:active, .btn-main-request-ambulance:active {background-color: var(--green-darkest);}
 .h5-main-title {color: var(--green);}
-.img-main-left-item-1, .img-main-left-item-2, .img-main-left-item-3 {position: absolute;}
 
 .sect-1 {
     background-image: url('../img/section-1/bg-section1.png');
@@ -86,21 +85,6 @@ a {text-decoration: none;}
     box-shadow: 0 0 30px rgba(0,0,0,0.15);
 }
 
-.img-main-left-item-1 {
-    top: 110px;
-    left: 39vw;
-}
-
-.img-main-left-item-2 {
-    top: 280px;
-    left: 43vw;
-}
-
-.img-main-left-item-3 {
-    top: 460px;
-    left: 42vw;
-}
-
 .img-left-side-ambulance {
     width: 60%;
     object-fit: contain;
@@ -124,4 +108,8 @@ a {text-decoration: none;}
     margin-right: 3rem;
     margin-bottom: 1rem;
     color: white;
+}
+
+.img-left-side-ambulance {
+    width: 80%;
 }
