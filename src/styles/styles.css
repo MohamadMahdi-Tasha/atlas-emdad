@@ -32,7 +32,6 @@ a {text-decoration: none;}
 .link-header-btn-holder {width: 50%;}
 .li-nav-item:active {background-color: var(--bs-dark);}
 
-
 .sect-1 {
     background-image: url('../img/section-1/bg-section1.png');
     background-size: cover;
@@ -136,6 +135,9 @@ a {text-decoration: none;}
     width: 100%;
     height: 100%;
     position: fixed;
+    display: none;
+    transition: .3s;
+    left: 100%;
 }
 
 .nav-mobile-nav {
@@ -144,6 +146,9 @@ a {text-decoration: none;}
     height: 100%;
     background-color: var(--green-darkest);
     box-shadow: 0 0 30px rgba(0,0,0,.1);
+    display: none;
+    transition: .3s;
+    left: 100%;
 }
 
 .li-nav-item {
@@ -158,6 +163,7 @@ a {text-decoration: none;}
     .dv-header-right-section {display: none;}
     .dv-header-left-side {width: 100%;}
     .btn-header-show-on-mobile {display: block;}
+    .dv-mobile-nav-dark-bg, .nav-mobile-nav {display: block;}
     .link-header-btn-holder {
         width: auto;
         margin-right: 1rem;
