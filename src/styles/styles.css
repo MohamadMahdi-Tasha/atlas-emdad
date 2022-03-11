@@ -31,11 +31,13 @@ a {text-decoration: none;}
 .img-left-side-ambulance {width: 80%;}
 .link-header-btn-holder {width: 50%;}
 .li-nav-item:active {background-color: var(--bs-dark);}
+.dv-main-right-side-of-top-side {width: 25%;}
 
 .sect-1 {
     background-image: url('../img/section-1/bg-section1.png');
     background-size: cover;
     min-height: 130vh;
+    width: 100%;
 }
 
 .h4-header-logo {
@@ -158,14 +160,42 @@ a {text-decoration: none;}
     transition: .3s;
 }
 
+.dv-main-left-side-of-top-side {
+    width: 75%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
 /*Media Querys*/
 @media (max-width: 992px) {
     .dv-header-right-section {display: none;}
     .dv-header-left-side {width: 100%;}
     .btn-header-show-on-mobile {display: block;}
     .dv-mobile-nav-dark-bg, .nav-mobile-nav {display: block;}
+    .img-left-side-ambulance {width: 100%;}
+
+    .sect-1 {
+    }
+
     .link-header-btn-holder {
         width: auto;
         margin-right: 1rem;
+    }
+
+    .dv-main-top-side {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .dv-main-right-side-of-top-side {
+        width: 100%;
+        margin-bottom: 4rem;
+    }
+
+    .dv-main-left-side-of-top-side {
+        width: 100%;
+        justify-content: center;
     }
 }
