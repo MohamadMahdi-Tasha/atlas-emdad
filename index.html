@@ -24,9 +24,9 @@
 <body dir="rtl">
 <!--Pages Elements Goes Here-->
 <!--A Dark Background Color-->
-<div class="dv-mobile-nav-dark-bg"></div>
+<div id="dv-mobile-nav-dark-bg" class="dv-mobile-nav-dark-bg"></div>
 <!--Nav Bar That Shows On Click If User Is Using Mobile-->
-<nav class="nav-mobile-nav">
+<nav id="nav-mobile-nav" class="nav-mobile-nav">
     <div class="d-flex w-100 justify-content-center align-items-center p-4">
         <a href="#" class="d-inline-flex align-items-center text-decoration-none">
             <img src="src/img/logo.svg" alt="لوگو اطلس امـداد">
@@ -82,7 +82,7 @@
         <!--Left Section-->
         <div class="dv-header-left-side">
             <!--Nav Bar Btn That Show Only On Mobile View-->
-            <button class="btn-header-show-on-mobile">
+            <button class="btn-header-show-on-mobile" id="btn-header-show-on-mobile">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                     <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                 </svg>
@@ -113,5 +113,7 @@
         <div class="dv-main-bottom-side"><h4>حرفه‌ایی گری را با کیهان امداد تجربه کنید</h4></div>
     </main>
 </section>
+<!--Linking Mobile Nav Scripts-->
+<script src="src/scripts/mobile-nav.js"></script>
 </body>
 </html>
