@@ -28,6 +28,8 @@ a {text-decoration: none;}
 .btn-header-join:hover, .btn-main-request-ambulance:hover {background-color: var(--green-darker);}
 .btn-header-join:active, .btn-main-request-ambulance:active {background-color: var(--green-darkest);}
 .h5-main-title {color: var(--green);}
+.img-left-side-ambulance {width: 80%;}
+.link-header-btn-holder {width: 50%;}
 
 .sect-1 {
     background-image: url('../img/section-1/bg-section1.png');
@@ -96,6 +98,7 @@ a {text-decoration: none;}
     justify-content: space-around;
     width: 100%;
     padding: 2rem;
+    margin-bottom: 3rem;
 }
 
 .p-main-paragraph {
@@ -104,6 +107,35 @@ a {text-decoration: none;}
     color: white;
 }
 
-.img-left-side-ambulance {
-    width: 80%;
+.dv-header-left-side {
+    width: 25%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.btn-header-show-on-mobile {
+    display: none;
+    background-color: unset;
+    border: 1px solid var(--green);
+    color: var(--green);
+    padding: 1rem;
+    border-radius: .25rem;
+    transition: .3s;
+}
+
+.btn-header-show-on-mobile:active {
+    background-color: var(--green);
+    color: white;
+}
+
+/*Media Querys*/
+@media (max-width: 992px) {
+    .dv-header-right-section {display: none;}
+    .dv-header-left-side {width: 100%;}
+    .btn-header-show-on-mobile {display: block;}
+    .link-header-btn-holder {
+        width: auto;
+        margin-right: 1rem;
+    }
 }
