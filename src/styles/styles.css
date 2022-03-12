@@ -211,6 +211,7 @@ body {background-color: var(--light) !important;}
     padding: 2rem;
 }
 
+/*Section - 3*/
 .sect-3 {
     display: inline-flex;
     width: 100%;
@@ -238,6 +239,7 @@ body {background-color: var(--light) !important;}
     margin-bottom: 1rem;
 }
 
+/*Section - 4*/
 .h3-sect-4-top-title {
     text-align: center;
     margin-bottom: 5rem;
@@ -261,6 +263,47 @@ body {background-color: var(--light) !important;}
 .li-sect-4-items:hover {
     background-color: var(--green);
     color: white;
+}
+
+/*Join With Email Section*/
+.sect-join {
+    padding: 3rem;
+    background-image: url("../img/section-1/bg-section1.png");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dv-sect-join-input-holder {
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 2rem;
+    background-color: white;
+    overflow: hidden;
+}
+
+.btn-sect-join-email {
+    width: 25%;
+    padding: .75rem;
+    border-radius: 2rem;
+    color: var(--blue);
+    background-color: #a8e3d1;
+    border: none;
+    transition: .3s;
+}
+
+.btn-sect-join-email:hover {background-color: #89baaa;}
+.btn-sect-join-email:active {background-color: #739a8e;}
+
+.input-sect-join-email {
+    width: 75%;
+    outline: none;
+    border: none;
+    padding-left: 1rem;
+    margin-right: .5rem;
 }
 
 /*Media Querys*/
