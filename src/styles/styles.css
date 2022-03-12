@@ -279,6 +279,7 @@ a {text-decoration: none;}
     .ul-left-sect-3 {padding: 0;}
     .dv-sect-3-left {width: 100% !important;}
     .dv-sect-3-left-side-top {text-align: center;}
+    .ul-sect-4 {grid-template-columns: repeat(2, 1fr);padding: 0;}
 
     .link-header-btn-holder {
         width: auto;
@@ -335,4 +336,5 @@ a {text-decoration: none;}
 @media (max-width: 613px) {
     .dv-sect-2-top-item.mt-minus-9 {margin-top: 0;}
     .dv-sect-2-top-items {grid-template-columns: repeat(1, 1fr);}
+    .ul-sect-4 {grid-template-columns: repeat(1, 1fr);}
 }
