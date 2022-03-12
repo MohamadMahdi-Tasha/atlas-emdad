@@ -306,6 +306,26 @@ body {background-color: var(--light) !important;}
     margin-right: .5rem;
 }
 
+/*Partners Section*/
+.sect-partners {
+    padding: 3rem;
+    background-color: var(--light);
+    width: 100%;
+}
+
+.ul-sect-partners-list {
+    margin-top: 2rem;
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 1rem;
+}
+
+.ul-sect-partners-list > li {
+    display: flex;
+    justify-content: center;
+}
+
 /*Media Querys*/
 @media (max-width: 768px) {
     .dv-sect-2-top-item.mt-minus-9 {margin-top: 0;}
