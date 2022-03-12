@@ -8,12 +8,14 @@
     --green-darkest: #209046;
     --green-rgba: rgba(42, 190, 92, 0.5);
     --blue: #426982;
+    --light: #efefef;
 }
 
 /*Default Styles*/
 img {pointer-events: none;}
 button {cursor: pointer;}
 a {text-decoration: none;}
+body {background-color: var(--light) !important;}
 
 /*Global Styles*/
 * {
@@ -252,7 +254,6 @@ a {text-decoration: none;}
     background-color: #f6f8fe;
     padding: 1rem;
     border-radius: 1rem;
-    box-shadow: 0 0 30px rgba(0,0,0,.2);
     color: var(--blue);
     transition: .3s;
 }
