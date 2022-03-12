@@ -47,6 +47,9 @@ body {background-color: var(--light) !important;}
 .dv-sect-3-left {width: 50%;}
 .ul-left-sect-3 {list-style: none;}
 .img-sect-4-items-icon,.h5-sect-4-items-title {margin-bottom: 1rem;}
+.btn-sect-join-email:hover {background-color: #89baaa;}
+.btn-sect-join-email:active {background-color: #739a8e;}
+.sect-join-inner-holder {width: 50%;}
 
 .sect-1 {
     background-image: url('../img/section-1/bg-section1.png');
@@ -268,7 +271,7 @@ body {background-color: var(--light) !important;}
 /*Join With Email Section*/
 .sect-join {
     padding: 3rem;
-    background-image: url("../img/section-1/bg-section1.png");
+    background: linear-gradient(to right, #013735, var(--green), #013735);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -295,9 +298,6 @@ body {background-color: var(--light) !important;}
     transition: .3s;
 }
 
-.btn-sect-join-email:hover {background-color: #89baaa;}
-.btn-sect-join-email:active {background-color: #739a8e;}
-
 .input-sect-join-email {
     width: 75%;
     outline: none;
@@ -312,6 +312,7 @@ body {background-color: var(--light) !important;}
     .dv-sect-2-top-item.mt-minus-7 {margin-top: 0;}
     .dv-sect-2-top-item.mt-minus-13 {margin-top: 0;}
     .dv-sect-2-top-items {grid-template-columns: repeat(2, 1fr);}
+    .sect-join-inner-holder {width: 75%;}
 }
 
 @media (max-width: 992px) {
