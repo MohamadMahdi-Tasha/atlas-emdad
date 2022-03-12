@@ -47,8 +47,8 @@ body {background-color: var(--light) !important;}
 .dv-sect-3-left {width: 50%;}
 .ul-left-sect-3 {list-style: none;}
 .img-sect-4-items-icon,.h5-sect-4-items-title {margin-bottom: 1rem;}
-.btn-sect-join-email:hover {background-color: #89baaa;}
-.btn-sect-join-email:active {background-color: #739a8e;}
+.btn-sect-join-email:hover, .btn-sect-join-email-on-mobile:hover {background-color: #89baaa;}
+.btn-sect-join-email:active, .btn-sect-join-email-on-mobile:active {background-color: #739a8e;}
 .sect-join-inner-holder {width: 50%;}
 
 .sect-1 {
@@ -288,14 +288,23 @@ body {background-color: var(--light) !important;}
     overflow: hidden;
 }
 
-.btn-sect-join-email {
-    width: 25%;
+.btn-sect-join-email, .btn-sect-join-email-on-mobile{
     padding: .75rem;
-    border-radius: 2rem;
     color: var(--blue);
     background-color: #a8e3d1;
     border: none;
     transition: .3s;
+}
+
+.btn-sect-join-email {
+    width: 25%;
+    border-radius: 2rem;
+}
+
+.btn-sect-join-email-on-mobile {
+    border-radius: 0 0 2rem 2rem;
+    display: none;
+    width: 100%;
 }
 
 .input-sect-join-email {
@@ -327,10 +336,7 @@ body {background-color: var(--light) !important;}
 }
 
 /*Media Querys*/
-@media (max-width: 768px) {
-    .sect-join-inner-holder {width: 75%;}
-}
-
+@media (max-width: 768px) {  .sect-join-inner-holder {width: 75%;}  }
 @media (max-width: 992px) {
     .dv-header-right-section {display: none;}
     .dv-header-left-side {width: 100%;}
@@ -409,8 +415,16 @@ body {background-color: var(--light) !important;}
     .dv-sect-2-top-items {grid-template-columns: repeat(1, 1fr);}
     .ul-sect-4 {grid-template-columns: repeat(1, 1fr);}
     .li-sect-partners-on-mobile-fill {grid-column: 2 span;}
+    .dv-sect-join-input-holder {flex-direction: column;}
+    .btn-sect-join-email {display:none;}
+    .btn-sect-join-email-on-mobile {display: block;}
     .ul-sect-partners-list {
         grid-template-columns: repeat(2, 1fr);
         padding: 0;
+    }
+
+    .input-sect-join-email {
+        padding: 1rem;
+        width: 100%;
     }
 }
