@@ -79,7 +79,6 @@ body::-webkit-scrollbar-thumb {
 .dv-header-drop-down-btn:hover {background-color: var(--green-darker);}
 .dv-header-drop-down-btn:active {background-color: var(--green-darkest);}
 .dv-nav-mobile-nav::-webkit-scrollbar {display: none;}
-.dv-mobile-nav-items-toggle:focus {background-color: var(--bs-dark) !important;}
 .dv-mobile-nav-drop-down-btn:hover {background-color: #3d444b;}
 
 .dv-sect-1 {
@@ -276,11 +275,6 @@ body::-webkit-scrollbar-thumb {
     background-color: unset;
     color: white;
     border: none;
-    transition: .3s;
-}
-
-.dv-mobile-nav-items-toggle:focus ~ .dv-mobile-nav-dropped-down-items{
-    height: 21rem !important;
     transition: .3s;
 }
 
