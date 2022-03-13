@@ -476,6 +476,7 @@ footer {
     .dv-sect-2-top-items {grid-template-columns: repeat(2, 1fr);}
     .ul-sect-5-top-side-items {width: 100%;}
     .ul-sect-5-bottom-items {grid-template-columns: repeat(1, 1fr);}
+    .footer {grid-template-columns: repeat(2, 1fr);}
 
     .link-header-btn-holder {
         width: auto;
@@ -544,6 +545,7 @@ footer {
     .btn-sect-join-email-on-mobile {display: block;}
     .btn-sect-5-top-side-btn {width: 100%;}
     .link-sect-5-blog-btn-holder {width: 75%;}
+    .footer {grid-template-columns: repeat(1, 1fr);}
 
     .ul-sect-partners-list {
         grid-template-columns: repeat(2, 1fr);
