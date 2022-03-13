@@ -239,13 +239,6 @@ body::-webkit-scrollbar-thumb {
     left: 100%;
 }
 
-.dv-li-nav-item {
-    width: 100%;
-    padding: 1rem;
-    background-color: unset;
-    transition: .3s;
-}
-
 .dv-dv-main-left-side-of-top-side {
     width: 75%;
     display: flex;
