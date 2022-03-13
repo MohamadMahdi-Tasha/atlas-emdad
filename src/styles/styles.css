@@ -76,6 +76,7 @@ body::-webkit-scrollbar-thumb {
 .dv-btn-sect-5-blog-btn {width: 100%;}
 .dv-btn-footer-order-btn {width: 75%;}
 .dv-sect-4 {padding: 3rem;}
+.dv-text-right {text-align: right !important;}
 
 .dv-sect-1 {
     background-image: url('../img/section-1/bg-section1.png');
@@ -120,7 +121,12 @@ body::-webkit-scrollbar-thumb {
 .dv-dv-header-right-section {
     width: 75%;
     height: 5rem;
-    overflow: hidden;
+}
+
+.dv-header-drop-down-toggle {
+    background-color: unset;
+    border: none;
+    color: white;
 }
 
 .dv-h1-main-subtitle {
