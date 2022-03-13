@@ -46,7 +46,7 @@ body {background-color: var(--light) !important;}
 .h3-sect-3-right-side-title {color: var(--blue);margin-bottom: 1rem;}
 .h1-sect-3-right-side-subtitle {color: var(--green);}
 .h1-left-side-number {margin-left: 1rem !important;}
-.li-sect-3-left-side:hover {color: var(--green) !important;transition: .3s}
+.li-sect-3-left-side:hover {color: var(--green) !important;}
 .dv-sect-3-left {width: 50%;}
 .ul-left-sect-3 {list-style: none;}
 .img-sect-4-items-icon,.h5-sect-4-items-title {margin-bottom: 1rem;}
@@ -253,6 +253,7 @@ body {background-color: var(--light) !important;}
     align-items: center;
     color: var(--blue);
     margin-bottom: 1rem;
+    transition: .3s;
 }
 
 /*Section - 4*/
@@ -525,7 +526,7 @@ body {background-color: var(--light) !important;}
     .btn-sect-join-email-on-mobile {display: block;}
     .btn-sect-5-top-side-btn {width: 100%;}
     .link-sect-5-blog-btn-holder {width: 75%;}
-    
+
     .ul-sect-partners-list {
         grid-template-columns: repeat(2, 1fr);
         padding: 0;
