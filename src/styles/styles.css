@@ -75,7 +75,7 @@ body::-webkit-scrollbar-thumb {
 .dv-btn-footer-order-btn {width: 75%;}
 .dv-sect-4 {padding: 3rem;}
 .dv-text-right {text-align: right !important;}
-.dv-header-drop-down-toggle:focus {color: var(--green);}
+.dv-header-drop-down-toggle:hover {color: var(--green);}
 .dv-header-drop-down-btn:hover {background-color: var(--green-darker);}
 .dv-header-drop-down-btn:active {background-color: var(--green-darkest);}
 .dv-nav-mobile-nav::-webkit-scrollbar {display: none;}
@@ -96,7 +96,7 @@ body::-webkit-scrollbar-thumb {
     transition: .3s;
 }
 
-.dv-header-drop-down-toggle:focus ~ .dv-header-dropped-down-list{
+.dv-header-drop-down-toggle:hover ~ .dv-header-dropped-down-list{
     opacity: 100%;
     pointer-events: visible;
 }
