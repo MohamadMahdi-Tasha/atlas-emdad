@@ -63,6 +63,10 @@ body {background-color: var(--light) !important;}
 .img-sect-5-card-img.item-3 {background-image: url("../img/section-5/img-doctor.png");}
 .btn-sect-5-blog-btn:active {background-color: #5a5a5a;}
 .link-sect-5-blog-btn-holder {width: 25%;}
+.dv-footer-items {color: var(--blue);}
+.btn-sect-5-blog-btn {width: 100%;}
+.btn-footer-order-btn {width: 75%;}
+.sect-4 {padding: 3rem;}
 
 .sect-1 {
     background-image: url('../img/section-1/bg-section1.png');
@@ -446,16 +450,10 @@ footer {
     padding: 2rem;
 }
 
-.dv-footer-items {color: var(--blue);}
-.btn-sect-5-blog-btn {width: 100%;}
-.btn-footer-order-btn {width: 75%;}
-
 .link-footer-link {
     text-decoration: none;
     color: var(--blue);
 }
-
-
 
 /*Media Querys*/
 @media (max-width: 768px) {  .sect-join-inner-holder {width: 75%;}  }
@@ -477,6 +475,7 @@ footer {
     .ul-sect-5-top-side-items {width: 100%;}
     .ul-sect-5-bottom-items {grid-template-columns: repeat(1, 1fr);}
     .footer {grid-template-columns: repeat(2, 1fr);}
+    .sect-5 {padding: 1rem;}
 
     .link-header-btn-holder {
         width: auto;
@@ -546,6 +545,7 @@ footer {
     .btn-sect-5-top-side-btn {width: 100%;}
     .link-sect-5-blog-btn-holder {width: 75%;}
     .footer {grid-template-columns: repeat(1, 1fr);}
+    .sect-4 {padding: 1rem;}
 
     .ul-sect-partners-list {
         grid-template-columns: repeat(2, 1fr);
