@@ -96,7 +96,9 @@ body::-webkit-scrollbar-thumb {
     transition: .3s;
 }
 
-.dv-header-drop-down-toggle:hover ~ .dv-header-dropped-down-list{
+
+.dv-header-drop-down-toggle:hover ~ .dv-header-dropped-down-list,
+.dv-header-dropped-down-list:hover{
     opacity: 100%;
     pointer-events: visible;
 }
@@ -108,14 +110,13 @@ body::-webkit-scrollbar-thumb {
     border-radius: .5rem;
     overflow: hidden;
     width: 15%;
-    margin-top: 1rem;
     opacity: 0;
     pointer-events: none;
     transition: .3s;
     box-shadow: 0 0 30px rgba(0,0,0,.2);
 }
 
-.dv-header-dropped-down-item {
+. {
     background-color: unset;
     width: 100%;
 }
@@ -278,7 +279,6 @@ body::-webkit-scrollbar-thumb {
     transition: .3s;
 }
 
-.dv-mobile-nav-items-toggle:focus ~ .dv-mobile-nav-dropped-down-items,
 .dv-mobile-nav-items-toggle:focus ~ .dv-mobile-nav-dropped-down-items{
     height: 21rem !important;
     transition: .3s;
