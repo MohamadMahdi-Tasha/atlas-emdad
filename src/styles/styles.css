@@ -19,6 +19,15 @@ img {pointer-events: none;}
 button {cursor: pointer;}
 a {text-decoration: none;}
 body {background-color: var(--light) !important;}
+body::-webkit-scrollbar {
+    background-color: var(--light);
+    width: 10px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: var(--green-darker);
+    border-radius: 2rem;
+}
 
 /*Global Styles*/
 * {
