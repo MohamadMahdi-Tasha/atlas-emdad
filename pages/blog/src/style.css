@@ -2,12 +2,107 @@
 :root {
     --blog-light: #e8e8e8;
     --header-dark-green :#15683c;
+    --light-green: #eefff5;
+    --light-green-darker: #cbd9d1;
+    --light-green-darkest: #a9b4ae;
+    --gray: #373737;
+    --article-btn-gray: #7e7e7e;
+    --darker-white: #d4d4d4;
+    --darkest-white: #bababa;
 }
 
 /*Styles*/
+body {background-color: white !important;}
 .dv-bg-blog-light {background-color: var(--blog-light);}
 .dv-header-drop-down-toggle {color: var(--header-dark-green) !important;}
 .dv-h4-header-logo {color: var(--header-dark-green) !important;}
 .dv-dv-header-right-section {height: auto !important;}
 .dv-footer {background-color: var(--blog-light);}
 .breadcrumb-item.active {color: var(--header-dark-green) !important;}
+.dv-tags-btn:hover {background-color: var(--light-green-darker);}
+.dv-tags-btn:active {background-color: var(--light-green-darkest);}
+.dv-article-details-name {color: var(--gray);}
+.dv-article-details-value {color: var(--header-dark-green);}
+.dv-article-btns.long {width: auto;}
+.dv-article-btns:hover {background-color: var(--darker-white);}
+.dv-article-btns:active {background-color: var(--darkest-white);}
+.dv-paragraph.no-mb {margin-bottom: 0;}
+.dv-p-3 {padding: 3rem;}
+.dv-like-comment-save-btn:hover {background-color: var(--darker-white);}
+.dv-like-comment-save-btn:active {background-color: var(--darkest-white);}
+
+.dv-paragraph {
+    color: #616161;
+    font-size: 20px;
+    margin-bottom: 2rem;
+}
+
+.dv-title-text {
+    color: var(--gray);
+    margin-bottom: 1rem;
+}
+
+.dv-tags-btn {
+    padding: .5rem;
+    background-color: var(--light-green);
+    color: var(--header-dark-green);
+    border-radius: 2rem;
+    border: none;
+    transition: .3s;
+}
+
+.dv-article-btns {
+    height: 3rem;
+    width: 3rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: .25rem;
+    border: 1px solid var(--article-btn-gray);
+    color: var(--article-btn-gray);
+    transition: .3s;
+}
+
+.dv-main-image-2 {
+    width: 50%;
+    object-fit: cover;
+    border-radius: .25rem;
+    margin-right: 1rem;
+}
+
+.dv-nokte {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    background-color: var(--blog-light);
+}
+
+.dv-nokte-green {
+    width: .5rem;
+    height: 3rem;
+    background-color: #045141;
+    margin-left: 1rem;
+}
+
+.dv-like-comment-save-btn {
+    background-color: unset;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    transition: .3s;
+}
+
+.dv-comments-input-holder {
+    background-color: var(--blog-light);
+    display: inline-flex;
+    width: 100%;
+    padding: 1rem;
+}
+
+.dv-comments-input {
+    background-color: unset;
+    border: none;
+    width: 100%;
+    outline: none;
+}
