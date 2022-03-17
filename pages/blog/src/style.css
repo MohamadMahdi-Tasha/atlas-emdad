@@ -9,4 +9,5 @@
 .dv-header-drop-down-toggle {color: var(--header-dark-green) !important;}
 .dv-h4-header-logo {color: var(--header-dark-green) !important;}
 .dv-dv-header-right-section {height: auto !important;}
-.footer {background-color: var(--blog-light);}
+.dv-footer {background-color: var(--blog-light);}
+.breadcrumb-item.active {color: var(--header-dark-green) !important;}
