@@ -1,0 +1,12 @@
+/*Variables*/
+:root {
+    --blog-light: #e8e8e8;
+    --header-dark-green :#15683c;
+}
+
+/*Styles*/
+.dv-bg-blog-light {background-color: var(--blog-light);}
+.dv-header-drop-down-toggle {color: var(--header-dark-green) !important;}
+.dv-h4-header-logo {color: var(--header-dark-green) !important;}
+.dv-dv-header-right-section {height: auto !important;}
+.footer {background-color: var(--blog-light);}
