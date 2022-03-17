@@ -77,13 +77,8 @@ body {background-color: white !important;}
     align-items: center;
     width: 100%;
     background-color: var(--blog-light);
-}
-
-.dv-nokte-green {
-    width: .5rem;
-    height: 3rem;
-    background-color: #045141;
-    margin-left: 1rem;
+    border-right: 10px solid #045141;
+    padding: 1rem;
 }
 
 .dv-like-comment-save-btn {
