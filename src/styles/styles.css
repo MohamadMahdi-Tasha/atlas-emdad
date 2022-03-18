@@ -98,8 +98,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .dv-header-drop-down-toggle:hover ~ .dv-header-dropped-down-list,
-.dv-header-dropped-down-list:hover, .dv-article-btns.dv-options:hover ~ .dv-drop-down-article-btn-list,
-.dv-drop-down-article-btn-list:hover{
+.dv-header-dropped-down-list:hover{
     opacity: 100%;
     pointer-events: visible;
 }
