@@ -222,7 +222,7 @@ body {
     overflow: hidden;
     position: fixed;
     left: 25%;
-    top: -60%;
+    top: -100%;
     transition: .4s;
     z-index: 1;
 }
@@ -328,7 +328,7 @@ body {
 
     .dv-drop-down-article-btn-list {
         left: 25%;
-        width: 20rem !important;
+        width: 50% !important;
     }
 
     .dv-like-comment-save-btn {

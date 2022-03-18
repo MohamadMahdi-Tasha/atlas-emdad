@@ -13,7 +13,7 @@ function show_pop_up() {
 
 // A Function That Closes Pop Up
 function close_pop_up() {
-    pop_up.style.top = '-60%';
+    pop_up.style.top = '-100%';
     pop_up_dark_bg.style.top = '-100%';
 }
 
