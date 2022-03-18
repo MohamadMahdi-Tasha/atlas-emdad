@@ -31,6 +31,8 @@ body {background-color: white !important;}
 .dv-like-comment-save-btn:hover {background-color: var(--darker-white);}
 .dv-like-comment-save-btn:active {background-color: var(--darkest-white);}
 .dv-bottom-side-cta-like-cm-save {width: 75%;}
+.dv-pop-up-close-btn:hover {background-color: var(--darker-white);color: black;}
+.dv-pop-up-close-btn:active {background-color: var(--darkest-white);}
 
 .dv-paragraph {
     color: #616161;
@@ -179,6 +181,37 @@ body {background-color: white !important;}
     width: 25%;
     display: flex;
     justify-content: end;
+}
+
+.dv-pop-up-close-btn {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    background-color: unset;
+    border: none;
+    transition: .3s;
+    color: white;
+}
+
+.dv-pop-up-top-side {
+    width: 100%;
+    padding: 1.5rem;
+    background-color: var(--green);
+}
+
+.dv-pop-up-dark-bg {
+    top: -100%;
+    left: 100%;
+}
+
+.dv-pop-up-holder {
+    width: 100%;
+    height: 100%;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: -100%;
 }
 
 @media (max-width: 991px) {
