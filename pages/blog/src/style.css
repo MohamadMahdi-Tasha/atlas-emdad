@@ -263,3 +263,10 @@ body {background-color: white !important;}
         flex-direction: column;
     }
 }
+
+@media (max-width: 613px) {
+    .dv-pop-up {
+        width: 70%;
+        left: 15%;
+    }
+}
