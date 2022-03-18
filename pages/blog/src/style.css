@@ -222,8 +222,7 @@ body {background-color: white !important;}
     display: block !important;
 }
 
-.dv-article-btns.dv-options:focus ~ .dv-drop-down-article-btn-list,
-.dv-drop-down-article-btn-list:focus {
+.dv-article-btns.dv-options:focus ~ .dv-drop-down-article-btn-list{
     opacity: 100%;
     pointer-events: visible;
 }
