@@ -82,6 +82,7 @@ body::-webkit-scrollbar-thumb {
 .dv-mobile-nav-drop-down-btn:hover {background-color: #3d444b;}
 .dv-ml-1 {margin-left: 1rem;}
 .dv-mr-1 {margin-right: 1rem;}
+.dv-ml-dot-5 {margin-left: .5rem;}
 
 .dv-sect-1 {
     background-image: url('../img/section-1/bg-section1.png');

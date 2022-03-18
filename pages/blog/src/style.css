@@ -35,7 +35,6 @@ body {background-color: white !important;}
 .dv-pop-up-close-btn:active {background-color: var(--darkest-white);}
 .dv-drop-down-article-btn-item > a {text-decoration: none;}
 .dv-drop-down-article-btn-list {left: 3rem;}
-.dv-ml-dot-5 {margin-left: .5rem;}
 
 .dv-paragraph {
     color: #616161;
@@ -227,6 +226,18 @@ body {background-color: white !important;}
 .dv-article-btns.dv-options:focus ~ .dv-drop-down-article-btn-list{
     opacity: 100%;
     pointer-events: visible;
+}
+
+.dv-like-comment-save-btn.dv-save-btn-active {
+    background-color: var(--green);
+    color: white;
+    box-shadow: 0 0 30px rgba(42, 190, 92, .5);
+}
+
+.dv-like-comment-save-btn.dv-like-btn-active {
+    background-color: red;
+    color: white;
+    box-shadow: 0 0 30px rgba(190, 42, 42, 0.5);
 }
 
 @media (max-width: 991px) {
