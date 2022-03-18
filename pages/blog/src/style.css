@@ -35,6 +35,7 @@ body {background-color: white !important;}
 .dv-pop-up-close-btn:active {background-color: var(--darkest-white);}
 .dv-drop-down-article-btn-item > a {text-decoration: none;}
 .dv-drop-down-article-btn-list {left: 3rem;}
+.dv-ml-dot-5 {margin-left: .5rem;}
 
 .dv-paragraph {
     color: #616161;
@@ -93,6 +94,7 @@ body {background-color: white !important;}
     transition: .3s;
     display: inline-flex;
     align-items: center;
+    color: #878787;
 }
 
 .dv-comments-input-holder {
