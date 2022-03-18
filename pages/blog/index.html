@@ -26,6 +26,27 @@
 </head>
 <body dir="rtl">
 <!--Pages Elements Goes Here-->
+<div id="dv-pop-up-dark-bg" class="dv-pop-up-dark-bg"></div>
+<!--A Pop Up That Shows After Click On Copy Buttons-->
+<div>
+    <div>
+        <!--Top Side Green-->
+        <div>
+            <button>
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+        </div>
+        <!--Bottom Side Content-->
+        <div>
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+            </svg>
+            <h5>کپی شد !</h5>
+        </div>
+    </div>
+</div>
 <!--A Dark Background Color-->
 <div id="dv-mobile-nav-dark-bg" class="dv-dv-mobile-nav-dark-bg"></div>
 <!--Nav Bar That Shows On Click If User Is Using Mobile-->
@@ -273,7 +294,7 @@
             </div>
             <!--Left Side-->
             <div class="dv-author-and-time-left-side">
-                <button class="dv-article-btns long dv-ml-1">
+                <button class="dv-article-btns long dv-ml-1" id="dv-copy-btn-1">
                     Copy link
                     <svg xmlns="http://www.w3.org/2000/svg" class="dv-mr-1" viewBox="0 0 25 25" width="25" height="25"><defs><clipPath clipPathUnits="userSpaceOnUse" id="cp1"><path d="m-207-1047h1366v4480h-1366z"/></clipPath></defs><style>.A{fill:#878787}</style><g clip-path="url(#cp1)"><path class="A" d="m1.8 0.1h13.3c1 0 1.7 0.7 1.7 1.7v4h-1.5v-4c0-0.1-0.1-0.2-0.2-0.2h-13.3c0 0-0.1 0.1-0.1 0.2v13.2c0 0.1 0.1 0.2 0.1 0.2h3.9v1.6h-3.9c-0.9 0-1.7-0.8-1.7-1.8v-13.2c0-1 0.8-1.7 1.7-1.7z"/><path fill-rule="evenodd" class="A" d="m9 7.4h13.3c0.9 0 1.7 0.7 1.7 1.7v13.2c0 1-0.8 1.8-1.7 1.8h-13.3c-0.9 0-1.7-0.8-1.7-1.8v-13.2c0-1 0.8-1.7 1.7-1.7zm0 15.1h13.3c0.1 0 0.1-0.1 0.1-0.2v-13.2c0-0.1 0-0.2-0.1-0.2h-13.3c-0.1 0-0.1 0.1-0.1 0.2v13.2c0 0.1 0 0.2 0.1 0.2z"/></g></svg>
                 </button>
@@ -354,7 +375,7 @@
                 </div>
                 <!--Left Side-->
                 <div class="dv-bottom-side-cta-copy-btn">
-                    <button class="dv-article-btns long">
+                    <button class="dv-article-btns long" id="dv-copy-btn-2">
                         Copy link
                         <svg xmlns="http://www.w3.org/2000/svg" class="dv-mr-1" viewBox="0 0 25 25" width="25" height="25"><defs><clipPath clipPathUnits="userSpaceOnUse" id="cp1"><path d="m-207-1047h1366v4480h-1366z"/></clipPath></defs><style>.A{fill:#878787}</style><g clip-path="url(#cp1)"><path class="A" d="m1.8 0.1h13.3c1 0 1.7 0.7 1.7 1.7v4h-1.5v-4c0-0.1-0.1-0.2-0.2-0.2h-13.3c0 0-0.1 0.1-0.1 0.2v13.2c0 0.1 0.1 0.2 0.1 0.2h3.9v1.6h-3.9c-0.9 0-1.7-0.8-1.7-1.8v-13.2c0-1 0.8-1.7 1.7-1.7z"/><path fill-rule="evenodd" class="A" d="m9 7.4h13.3c0.9 0 1.7 0.7 1.7 1.7v13.2c0 1-0.8 1.8-1.7 1.8h-13.3c-0.9 0-1.7-0.8-1.7-1.8v-13.2c0-1 0.8-1.7 1.7-1.7zm0 15.1h13.3c0.1 0 0.1-0.1 0.1-0.2v-13.2c0-0.1 0-0.2-0.1-0.2h-13.3c-0.1 0-0.1 0.1-0.1 0.2v13.2c0 0.1 0 0.2 0.1 0.2z"/></g></svg>
                     </button>
@@ -414,8 +435,9 @@
         </ul>
     </div>
 </footer>
-<!--Linking Mobile Nav Scripts-->
+<!--Linking Our Js Files-->
 <script src="../../src/scripts/mobile-nav.js"></script>
+<script src="src/script.js"></script>
 <!--Linking Required Scripts-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
