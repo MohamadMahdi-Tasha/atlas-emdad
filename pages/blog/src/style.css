@@ -12,7 +12,6 @@
 }
 
 /*Styles*/
-body {background-color: white !important;}
 .dv-bg-blog-light {background-color: var(--blog-light);}
 .dv-header-drop-down-toggle {color: var(--header-dark-green) !important;}
 .dv-h4-header-logo {color: var(--header-dark-green) !important;}
@@ -35,6 +34,11 @@ body {background-color: white !important;}
 .dv-pop-up-close-btn:active {background-color: var(--darkest-white);}
 .dv-drop-down-article-btn-item > a {text-decoration: none;}
 .dv-drop-down-article-btn-list {left: 3rem;}
+
+body {
+    background-color: white !important;
+    scroll-behavior: smooth !important;
+}
 
 .dv-paragraph {
     color: #616161;
@@ -215,6 +219,7 @@ body {background-color: white !important;}
     left: 25%;
     top: -60%;
     transition: .4s;
+    z-index: 1;
 }
 
 .dv-pop-up-dark-bg {
