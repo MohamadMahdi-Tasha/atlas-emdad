@@ -34,6 +34,10 @@
 .dv-pop-up-close-btn:active {background-color: var(--darkest-white);}
 .dv-drop-down-article-btn-item > a {text-decoration: none;}
 .dv-drop-down-article-btn-list {left: 3rem;}
+.dv-like-comment-save-btn.dv-save-btn-active:hover {background-color: var(--green-darker);}
+.dv-like-comment-save-btn.dv-save-btn-active:active {background-color: var(--green-darkest);}
+.dv-like-comment-save-btn.dv-like-btn-active:hover {background-color: #bb0000;}
+.dv-like-comment-save-btn.dv-like-btn-active:active {background-color: #8e0000;}
 
 body {
     background-color: white !important;
